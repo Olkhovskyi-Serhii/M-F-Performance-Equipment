@@ -4,8 +4,9 @@ import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+const rootDir = path.resolve(__dirname, '..');
 
-const distDir = path.join(__dirname, 'dist');
+const distDir = path.join(rootDir, 'dist');
 
 if (fs.existsSync(distDir)) {
   fs.rmSync(distDir, { recursive: true, force: true });
@@ -21,7 +22,7 @@ const copyTargets = [
 ];
 
 for (const target of copyTargets) {
-  const srcPath = path.join(__dirname, target.src);
+  const srcPath = path.join(rootDir, target.src);
   const destPath = path.join(distDir, target.dest);
   if (fs.existsSync(srcPath)) {
     fs.cpSync(srcPath, destPath, { recursive: true, force: true });

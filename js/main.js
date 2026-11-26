@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
     workouts: {
       feature: {
         id: 'hollow-hold',
-        img: '/src/assets/images/workout_core_athlete_1795709669594.jpg',
+        img: 'src/assets/images/workout_core_athlete_1795709669594.jpg',
         alt: 'Атлет виконує утримання позиції човника для зміцнення м’язів кора',
         kicker: 'ВПРАВИ ДЛЯ ПРЕСА ТА КОРА',
         title: 'ЗМІЦНІТЬ КОР ЗА ДОПОМОГОЮ УТРИМАННЯ «ЧОВНИКА»',
@@ -77,14 +77,14 @@ document.addEventListener('DOMContentLoaded', () => {
       side: [
         {
           id: 'forgotten-strength',
-          img: '/src/assets/images/hero_side_plank_1795709668723.jpg',
+          img: 'src/assets/images/hero_side_plank_1795709668723.jpg',
           alt: 'Виконання бічної планки з тренером',
           kicker: 'ФУНКЦІОНАЛЬНІ ВПРАВИ',
           title: '5 забутих силових вправ, які працюють для кожного'
         },
         {
           id: 'treadmill-30-30',
-          img: '/src/assets/images/equipment_treadmill_inertia_1795709670143.jpg',
+          img: 'src/assets/images/equipment_treadmill_inertia_1795709670143.jpg',
           alt: 'Бігова доріжка для інтервального прискорення',
           kicker: 'ПРОГРАМИ НА ВИТРИВАЛІСТЬ',
           title: 'Побудуйте вибухову швидкість із протоколом 30/30 на доріжці'
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
     nutrition: {
       feature: {
         id: 'progressive-overload',
-        img: '/src/assets/images/hero_side_plank_1795709668723.jpg',
+        img: 'src/assets/images/hero_side_plank_1795709668723.jpg',
         alt: 'Консультація тренера зі спортивного раціону',
         kicker: 'СПОРТИВНЕ ХАРЧУВАННЯ',
         title: 'БАЛАНС БІЛКІВ ТА ВУГЛЕВОДІВ ДЛЯ СТАБІЛЬНОГО ВІДНОВЛЕННЯ',
@@ -103,14 +103,14 @@ document.addEventListener('DOMContentLoaded', () => {
       side: [
         {
           id: 'hiit-cycling',
-          img: '/src/assets/images/equipment_cycling_bike_1795709669514.jpg',
+          img: 'src/assets/images/equipment_cycling_bike_1795709669514.jpg',
           alt: 'Енергетичний режим для кардіотренування',
           kicker: 'ЗДОРОВІ ЗВИЧКИ',
           title: 'Гідратація та електроліти під час інтенсивного сайклінгу'
         },
         {
           id: 'telemetry-metrics',
-          img: '/src/assets/images/gym_smartfocus_console_1795709671264.jpg',
+          img: 'src/assets/images/gym_smartfocus_console_1795709671264.jpg',
           alt: 'Показники витрати калорій на тренажері',
           kicker: 'МЕТАБОЛІЗМ',
           title: 'Чому не варто сліпо довіряти лічильнику калорій на панелі'
@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
     athletes: {
       feature: {
         id: 'hero-intensity',
-        img: '/src/assets/images/gym_facility_interior_1795709670610.jpg',
+        img: 'src/assets/images/gym_facility_interior_1795709670610.jpg',
         alt: 'Сучасна тренувальна база для професійних атлетів',
         kicker: 'ПРОФІЛЬ АТЛЕТІВ',
         title: 'ПІДГОТОВКА ДО СЕЗОНУ: ЯК ПЛАНУЮТЬ ТРЕНУВАННЯ ПРОФІ',
@@ -129,14 +129,14 @@ document.addEventListener('DOMContentLoaded', () => {
       side: [
         {
           id: 'hollow-hold',
-          img: '/src/assets/images/workout_core_athlete_1795709669594.jpg',
+          img: 'src/assets/images/workout_core_athlete_1795709669594.jpg',
           alt: 'Силова підготовка атлета',
           kicker: 'ІНТЕРВ’Ю',
           title: 'Як поєднувати бігову роботу та важку штангу без втрати швидкості'
         },
         {
           id: 'forgotten-strength',
-          img: '/src/assets/images/equipment_cycling_bike_1795709669514.jpg',
+          img: 'src/assets/images/equipment_cycling_bike_1795709669514.jpg',
           alt: 'Аеробна база на велотренажері',
           kicker: 'ДОСВІД',
           title: 'Аеробна база для силових атлетів: 20 хвилин після тренування'
@@ -229,7 +229,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const INERTIA_SLIDES = [
     {
       title: 'INERTIA',
-      img: '/src/assets/images/equipment_treadmill_inertia_1795709670143.jpg',
+      img: 'src/assets/images/equipment_treadmill_inertia_1795709670143.jpg',
       alt: 'Комерційна бігова доріжка серії INERTIA',
       caption: 'Потужний безщітковий привід, система амортизації Pro-Cushion та сенсорна консоль.',
       ctaText: 'ВІДКРИТИ КАРДІО',
@@ -237,7 +237,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       title: 'PRO CYCLE',
-      img: '/src/assets/images/equipment_cycling_bike_1795709669514.jpg',
+      img: 'src/assets/images/equipment_cycling_bike_1795709669514.jpg',
       alt: 'Професійний велотренажер PRO CYCLE',
       caption: 'Магнітна система опору на 24 рівні з датчиком потужності та Bluetooth FTMS.',
       ctaText: 'ДЕТАЛЬНІШЕ ПРО БАЙК',
@@ -245,7 +245,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       title: 'SMARTFOCUS',
-      img: '/src/assets/images/gym_smartfocus_console_1795709671264.jpg',
+      img: 'src/assets/images/gym_smartfocus_console_1795709671264.jpg',
       alt: 'Цифрова консоль Smartfocus на тренажері',
       caption: '19-дюймовий сенсорний екран, миттєва синхронізація тренувань та мультимедіа.',
       ctaText: 'ВІДКРИТИ ТЕХНОЛОГІЇ',
@@ -311,7 +311,7 @@ document.addEventListener('DOMContentLoaded', () => {
         title: 'Smartfocus',
         text: 'Із системою Smartfocus ви отримуєте повний контроль над тренувальним процесом у залі завдяки фірмовому софту та хмарній аналітиці.',
         cta: 'ВІДКРИТИ SMARTFOCUS',
-        img: '/src/assets/images/gym_smartfocus_console_1795709671264.jpg',
+        img: 'src/assets/images/gym_smartfocus_console_1795709671264.jpg',
         alt: 'Сенсорний екран Smartfocus на кардіотренажері'
       },
       {
@@ -319,7 +319,7 @@ document.addEventListener('DOMContentLoaded', () => {
         title: 'GymLoop Cloud',
         text: 'Єдина хмарна екосистема для тренерів і менеджерів: персональні плани в смартфоні клієнта та контроль завантаженості тренажерів.',
         cta: 'ДІЗНАТИСЯ БІЛЬШЕ',
-        img: '/src/assets/images/equipment_cycling_bike_1795709669514.jpg',
+        img: 'src/assets/images/equipment_cycling_bike_1795709669514.jpg',
         alt: 'Синхронізація велотренажера з додатком GymLoop'
       },
       {
@@ -327,7 +327,7 @@ document.addEventListener('DOMContentLoaded', () => {
         title: 'Сервісна телеметрія',
         text: 'Автоматичні звіти про напрацювання годин та профілактичне обслуговування обладнання без простоїв у роботі клубу.',
         cta: 'ПЕРЕГЛЯНУТИ МОЖЛИВОСТІ',
-        img: '/src/assets/images/equipment_treadmill_inertia_1795709670143.jpg',
+        img: 'src/assets/images/equipment_treadmill_inertia_1795709670143.jpg',
         alt: 'Діагностика бігової доріжки у реальному часі'
       }
     ],
@@ -337,7 +337,7 @@ document.addEventListener('DOMContentLoaded', () => {
         title: 'Дизайн та 3D-планування',
         text: 'Наш проєктний відділ розробляє ергономічні зони кардіо, силового і функціонального тренінгу під площу та трафік конкретного об’єкта.',
         cta: 'ДЕТАЛЬНІШЕ',
-        img: '/src/assets/images/gym_facility_interior_1795709670610.jpg',
+        img: 'src/assets/images/gym_facility_interior_1795709670610.jpg',
         alt: 'Реалізований проєкт планування фітнес-клубу з панорамними вікнами'
       },
       {
@@ -345,7 +345,7 @@ document.addEventListener('DOMContentLoaded', () => {
         title: 'Фінансовий інжиніринг',
         text: 'Допомагаємо розрахувати окупність площі залу, лізингові графіки та оптимальний бюджет стартової комплектації.',
         cta: 'ДЕТАЛЬНІШЕ',
-        img: '/src/assets/images/hero_side_plank_1795709668723.jpg',
+        img: 'src/assets/images/hero_side_plank_1795709668723.jpg',
         alt: 'Зона персонального тренінгу у клубі'
       },
       {
@@ -353,7 +353,7 @@ document.addEventListener('DOMContentLoaded', () => {
         title: 'Сервісний супровід 24/7',
         text: 'Власний склад запчастин, регулярне регламентне обслуговування та оперативний виїзд інженерів по всій країні.',
         cta: 'ДЕТАЛЬНІШЕ',
-        img: '/src/assets/images/gym_smartfocus_console_1795709671264.jpg',
+        img: 'src/assets/images/gym_smartfocus_console_1795709671264.jpg',
         alt: 'Обслуговування та калібрування консолей'
       }
     ]
