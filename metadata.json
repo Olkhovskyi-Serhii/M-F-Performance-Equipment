@@ -1,0 +1,6 @@
+{
+  "name": "M&F Performance & Equipment",
+  "description": "Фітнес-портал і каталог професійного обладнання: програми тренувань, база з понад 1000 вправ, харчування та рішення для фітнес-клубів.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
